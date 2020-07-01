@@ -1,10 +1,10 @@
 # **Traffic Signs Recognition and Classify using Deep Neural Networks**
 
-Puneet, Tanishq Chamola, Piyush Malhotra
+*Puneet, Tanishq Chamola, Piyush Malhotra*
 
-_CSE 6__th_ _semester, Chandigarh College of Engineering and Technology_
+_CSE 6th semester, Chandigarh College of Engineering and Technology_
 
-_ **Abstract** _ **-** Nowadays cars have become almost one of the most convenient transport modes for any household due to rapid growth in society and economy. This complicates the transport environment and people expect smart vision-assisted applications that provide drivers with information on signs of traffic, regulate drive operations or help with the control of vehicles to ensure road safety. The identification and analysis of traffic signals has become one of the most significant tasks of researchers. The primary purpose is to capture real-time road pictures using vehicle cameras and then identify and accurately provide the traffic signs encountered on roads. The road conditions are, however, very complex in the real world. The method of recognition has yet to be put into effect after several years of hard work and further study and development is still required. Traditionally, the use of traditional computer vision techniques has been observation and classification, but the processing of essential image features by human takes time. In order to solve this problem, more and more researchers use deep learning technology as science and technology develops and advances. The principal reason that the method of deep learning is widely accepted is that the model can autonomously learn the deep characteristics of the image from the samples.
+**Abstract** **-** Nowadays cars have become almost one of the most convenient transport modes for any household due to rapid growth in society and economy. This complicates the transport environment and people expect smart vision-assisted applications that provide drivers with information on signs of traffic, regulate drive operations or help with the control of vehicles to ensure road safety. The identification and analysis of traffic signals has become one of the most significant tasks of researchers. The primary purpose is to capture real-time road pictures using vehicle cameras and then identify and accurately provide the traffic signs encountered on roads. The road conditions are, however, very complex in the real world. The method of recognition has yet to be put into effect after several years of hard work and further study and development is still required. Traditionally, the use of traditional computer vision techniques has been observation and classification, but the processing of essential image features by human takes time. In order to solve this problem, more and more researchers use deep learning technology as science and technology develops and advances. The principal reason that the method of deep learning is widely accepted is that the model can autonomously learn the deep characteristics of the image from the samples.
 
 
 # **1. Introduction**
@@ -57,7 +57,7 @@ The model used in this project is a sequential model. The architecture of the CN
 5. Flatten- The flatten layer transforms the 2-D data into a long 1-D vector of features for a fully connected layer that can be fed into the neural network.
 6. Dense – We use dense layer as a output layer. The last layer of a network is dense layer. It outputs 43 nodes as the traffic signs have been divided into 43 categories in the dataset. The last layer uses softmax activation function which gives the probability value (between 0 and 1) so that the model can predict which of the 43 options has highest probability.
 
-# **3. RESULTS AND DISCUSSIONS**
+# **3. Results and Discussion**
 
 In this project, the model created was used to classify the traffic signs. Various parameters used to train the model have been listed out in Table 1.
 
@@ -76,23 +76,23 @@ In this project, the model created was used to classify the traffic signs. Vario
 | **Activation** | ReLU for convolution layers |
 | **Loss function** | categorical\_crossentropy |
 
-_ **Table 1. Parameters used for the model** _
+_Table 1. Parameters used for the model_
 
 The architecture of the model is shown in Figure 1. The architecture consists of convolution layers to classify the traffic signs.
 
 ![](fig1.png)
 
-_ **Figure 1. Model Architecture** _
+_Figure 1. Model Architecture_
 
 Figure 2 shows training accuracy and validation accuracy per epoch and Figure 3 presents training as well as validation loss per epoch, when all the layers of the network were trained.
 
 ![](fig2.png)
 
-_ **Figure 2. Training and Validation accuracy per epoch** _
+_Figure 2. Training and Validation accuracy per epoch_
 
 ![](fig3.png)
 
-_ **Figure 3. Training and Validation loss per epoch** _
+_Figure 3. Training and Validation loss per epoch_
 
 The results obtained by the model have been displayed in Figure 4. While there is a definite scope for improvement, however, the model gives reasonably good results.
 
