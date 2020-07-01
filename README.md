@@ -1,4 +1,4 @@
-Traffic Signs Recognition and Classify using Deep Neural Networks
+# **Traffic Signs Recognition and Classify using Deep Neural Networks**
 
 Puneet, Tanishq Chamola, Piyush Malhotra
 
@@ -6,8 +6,8 @@ _CSE 6__th_ _semester, Chandigarh College of Engineering and Technology_
 
 _ **Abstract** _ **-** Nowadays cars have become almost one of the most convenient transport modes for any household due to rapid growth in society and economy. This complicates the transport environment and people expect smart vision-assisted applications that provide drivers with information on signs of traffic, regulate drive operations or help with the control of vehicles to ensure road safety. The identification and analysis of traffic signals has become one of the most significant tasks of researchers. The primary purpose is to capture real-time road pictures using vehicle cameras and then identify and accurately provide the traffic signs encountered on roads. The road conditions are, however, very complex in the real world. The method of recognition has yet to be put into effect after several years of hard work and further study and development is still required. Traditionally, the use of traditional computer vision techniques has been observation and classification, but the processing of essential image features by human takes time. In order to solve this problem, more and more researchers use deep learning technology as science and technology develops and advances. The principal reason that the method of deep learning is widely accepted is that the model can autonomously learn the deep characteristics of the image from the samples.
 
-1.
-# **Introduction**
+
+# **1. Introduction**
 
 Road signs are signs on or above the road providing directions or notifications to road users. In the road traffic network, traffic signals hold a significant role. The main function of the road signs is to show the contents that must be observed in the current section of the road, to prompt the drivers on the road to the danger and environmental difficulties, to advise the driver to drive at speed and to give a safe driving guarantee. Consequently, traffic sign detection and identification is a very important research approach, and it is important to avoid road accidents and to protect drivers&#39; personal safety.
 
@@ -80,17 +80,17 @@ _ **Table 1. Parameters used for the model** _
 
 The architecture of the model is shown in Figure 1. The architecture consists of convolution layers to classify the traffic signs.
 
-![](RackMultipart20200701-4-1lgq2v8_html_23553731ee5401a9.png)
+![](fig1.png)
 
 _ **Figure 1. Model Architecture** _
 
 Figure 2 shows training accuracy and validation accuracy per epoch and Figure 3 presents training as well as validation loss per epoch, when all the layers of the network were trained.
 
-![](RackMultipart20200701-4-1lgq2v8_html_c95cc1fa54176565.png)
+![](fig2.png)
 
 _ **Figure 2. Training and Validation accuracy per epoch** _
 
-![](RackMultipart20200701-4-1lgq2v8_html_1448a939b55f3b52.png)
+![](fig3.png)
 
 _ **Figure 3. Training and Validation loss per epoch** _
 
