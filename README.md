@@ -4,6 +4,8 @@
 
 _CSE 6th semester, Chandigarh College of Engineering and Technology_
 
+**Dataset** **-** https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+
 **Abstract** **-** Nowadays cars have become almost one of the most convenient transport modes for any household due to rapid growth in society and economy. This complicates the transport environment and people expect smart vision-assisted applications that provide drivers with information on signs of traffic, regulate drive operations or help with the control of vehicles to ensure road safety. The identification and analysis of traffic signals has become one of the most significant tasks of researchers. The primary purpose is to capture real-time road pictures using vehicle cameras and then identify and accurately provide the traffic signs encountered on roads. The road conditions are, however, very complex in the real world. The method of recognition has yet to be put into effect after several years of hard work and further study and development is still required. Traditionally, the use of traditional computer vision techniques has been observation and classification, but the processing of essential image features by human takes time. In order to solve this problem, more and more researchers use deep learning technology as science and technology develops and advances. The principal reason that the method of deep learning is widely accepted is that the model can autonomously learn the deep characteristics of the image from the samples.
 
 
